@@ -5,7 +5,8 @@ from tkinter import *
 # globally declare wb and sheet variable 
 
 # opening the existing excel file 
-wb = load_workbook('/Users/youshamahamuni2/Desktop/PythonClass1/Project1.xlsx') 
+wb = load_workbook('/Users/youshamahamuni2/Desktop/PythonClass1/Project1.xlsx') '''Guys you need to create an excel sheet
+of your own in the same folder that you're putting this file in and put in the path for that excel file here'''
 
 # create the sheet object 
 sheet = wb.active 
